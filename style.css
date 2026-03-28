@@ -1,0 +1,104 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #f4f7fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Hero header */
+.hero {
+  text-align: center;
+  padding: 2.5rem 1rem 2rem;
+  background: linear-gradient(135deg, #0d47a1, #00b8d4);
+  color: white;
+}
+
+.logo {
+  width: 96px;
+  height: auto;
+  margin-bottom: 0.75rem;
+  border-radius: 12px;
+  background: white;
+  padding: 0.35rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* Main layout */
+.container {
+  max-width: 900px;
+  margin: 1.5rem auto 2.5rem;
+  padding: 0 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  margin-bottom: 0.75rem;
+  color: #0d47a1;
+  font-size: 1.35rem;
+}
+
+.card p + ul {
+  margin-top: 0.5rem;
+}
+
+.card ul {
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.card li {
+  margin-bottom: 0.25rem;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  background: #0d47a1;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: background 0.2s ease, transform 0.1s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  background: #09306b;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem 0 1.5rem;
+  font-size: 0.85rem;
+  color: #666;
+}
